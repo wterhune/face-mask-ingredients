@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9908745C2418A85900D6E79B /* Tomato Juice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 990874502418A85800D6E79B /* Tomato Juice.jpg */; };
+		9908745D2418A85900D6E79B /* Ice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 990874512418A85800D6E79B /* Ice.jpg */; };
+		9908745E2418A85900D6E79B /* Lemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 990874522418A85800D6E79B /* Lemon.jpg */; };
+		9908745F2418A85900D6E79B /* Orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 990874532418A85800D6E79B /* Orange.jpg */; };
+		990874602418A85900D6E79B /* Rose Water.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 990874542418A85800D6E79B /* Rose Water.jpg */; };
+		990874612418A85900D6E79B /* Tumeric.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 990874552418A85800D6E79B /* Tumeric.jpg */; };
+		990874622418A85900D6E79B /* Avocado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 990874562418A85800D6E79B /* Avocado.jpg */; };
+		990874632418A85900D6E79B /* Green Tea Powder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 990874572418A85800D6E79B /* Green Tea Powder.jpg */; };
+		990874642418A85900D6E79B /* Aloe Vera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 990874582418A85800D6E79B /* Aloe Vera.jpg */; };
+		990874652418A85900D6E79B /* Egg White.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 990874592418A85900D6E79B /* Egg White.jpg */; };
+		990874662418A85900D6E79B /* Honey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9908745A2418A85900D6E79B /* Honey.jpg */; };
+		990874672418A85900D6E79B /* Coconut Oil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9908745B2418A85900D6E79B /* Coconut Oil.jpg */; };
+		99ABE1852417351100724B9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ABE1842417351100724B9F /* AppDelegate.swift */; };
+		99ABE1872417351100724B9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ABE1862417351100724B9F /* SceneDelegate.swift */; };
+		99ABE1892417351100724B9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ABE1882417351100724B9F /* ViewController.swift */; };
+		99ABE18C2417351100724B9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99ABE18A2417351100724B9F /* Main.storyboard */; };
+		99ABE18E2417351400724B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99ABE18D2417351400724B9F /* Assets.xcassets */; };
+		99ABE1912417351400724B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99ABE18F2417351400724B9F /* LaunchScreen.storyboard */; };
+		99ABE19C2417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ABE19B2417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests.swift */; };
+		99ABE1A72417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ABE1A62417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests.swift */; };
+		99ABE1B524173B3F00724B9F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ABE1B424173B3F00724B9F /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99ABE1982417351400724B9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99ABE1792417351100724B9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99ABE1802417351100724B9F;
+			remoteInfo = FaceMaskMustHaveIngredientsTableView;
+		};
+		99ABE1A32417351400724B9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99ABE1792417351100724B9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99ABE1802417351100724B9F;
+			remoteInfo = FaceMaskMustHaveIngredientsTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		990874502418A85800D6E79B /* Tomato Juice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tomato Juice.jpg"; sourceTree = "<group>"; };
+		990874512418A85800D6E79B /* Ice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ice.jpg; sourceTree = "<group>"; };
+		990874522418A85800D6E79B /* Lemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lemon.jpg; sourceTree = "<group>"; };
+		990874532418A85800D6E79B /* Orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Orange.jpg; sourceTree = "<group>"; };
+		990874542418A85800D6E79B /* Rose Water.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rose Water.jpg"; sourceTree = "<group>"; };
+		990874552418A85800D6E79B /* Tumeric.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tumeric.jpg; sourceTree = "<group>"; };
+		990874562418A85800D6E79B /* Avocado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Avocado.jpg; sourceTree = "<group>"; };
+		990874572418A85800D6E79B /* Green Tea Powder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Green Tea Powder.jpg"; sourceTree = "<group>"; };
+		990874582418A85800D6E79B /* Aloe Vera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Aloe Vera.jpg"; sourceTree = "<group>"; };
+		990874592418A85900D6E79B /* Egg White.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Egg White.jpg"; sourceTree = "<group>"; };
+		9908745A2418A85900D6E79B /* Honey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Honey.jpg; sourceTree = "<group>"; };
+		9908745B2418A85900D6E79B /* Coconut Oil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Coconut Oil.jpg"; sourceTree = "<group>"; };
+		99ABE1812417351100724B9F /* FaceMaskMustHaveIngredientsTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceMaskMustHaveIngredientsTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99ABE1842417351100724B9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99ABE1862417351100724B9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99ABE1882417351100724B9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99ABE18B2417351100724B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99ABE18D2417351400724B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99ABE1902417351400724B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99ABE1922417351400724B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99ABE1972417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceMaskMustHaveIngredientsTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99ABE19B2417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceMaskMustHaveIngredientsTableViewTests.swift; sourceTree = "<group>"; };
+		99ABE19D2417351400724B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99ABE1A22417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceMaskMustHaveIngredientsTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99ABE1A62417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceMaskMustHaveIngredientsTableViewUITests.swift; sourceTree = "<group>"; };
+		99ABE1A82417351400724B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99ABE1B424173B3F00724B9F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99ABE17E2417351100724B9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ABE1942417351400724B9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ABE19F2417351400724B9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99ABE1782417351100724B9F = {
+			isa = PBXGroup;
+			children = (
+				99ABE1832417351100724B9F /* FaceMaskMustHaveIngredientsTableView */,
+				99ABE19A2417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests */,
+				99ABE1A52417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests */,
+				99ABE1822417351100724B9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99ABE1822417351100724B9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99ABE1812417351100724B9F /* FaceMaskMustHaveIngredientsTableView.app */,
+				99ABE1972417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests.xctest */,
+				99ABE1A22417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99ABE1832417351100724B9F /* FaceMaskMustHaveIngredientsTableView */ = {
+			isa = PBXGroup;
+			children = (
+				99ABE1842417351100724B9F /* AppDelegate.swift */,
+				99ABE1862417351100724B9F /* SceneDelegate.swift */,
+				99ABE1882417351100724B9F /* ViewController.swift */,
+				99ABE1B424173B3F00724B9F /* TableViewController.swift */,
+				99ABE18A2417351100724B9F /* Main.storyboard */,
+				99ABE18D2417351400724B9F /* Assets.xcassets */,
+				990874582418A85800D6E79B /* Aloe Vera.jpg */,
+				990874562418A85800D6E79B /* Avocado.jpg */,
+				9908745B2418A85900D6E79B /* Coconut Oil.jpg */,
+				990874592418A85900D6E79B /* Egg White.jpg */,
+				990874572418A85800D6E79B /* Green Tea Powder.jpg */,
+				9908745A2418A85900D6E79B /* Honey.jpg */,
+				990874512418A85800D6E79B /* Ice.jpg */,
+				990874522418A85800D6E79B /* Lemon.jpg */,
+				990874532418A85800D6E79B /* Orange.jpg */,
+				990874542418A85800D6E79B /* Rose Water.jpg */,
+				990874502418A85800D6E79B /* Tomato Juice.jpg */,
+				990874552418A85800D6E79B /* Tumeric.jpg */,
+				99ABE18F2417351400724B9F /* LaunchScreen.storyboard */,
+				99ABE1922417351400724B9F /* Info.plist */,
+			);
+			path = FaceMaskMustHaveIngredientsTableView;
+			sourceTree = "<group>";
+		};
+		99ABE19A2417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				99ABE19B2417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests.swift */,
+				99ABE19D2417351400724B9F /* Info.plist */,
+			);
+			path = FaceMaskMustHaveIngredientsTableViewTests;
+			sourceTree = "<group>";
+		};
+		99ABE1A52417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99ABE1A62417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests.swift */,
+				99ABE1A82417351400724B9F /* Info.plist */,
+			);
+			path = FaceMaskMustHaveIngredientsTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99ABE1802417351100724B9F /* FaceMaskMustHaveIngredientsTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99ABE1AB2417351400724B9F /* Build configuration list for PBXNativeTarget "FaceMaskMustHaveIngredientsTableView" */;
+			buildPhases = (
+				99ABE17D2417351100724B9F /* Sources */,
+				99ABE17E2417351100724B9F /* Frameworks */,
+				99ABE17F2417351100724B9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceMaskMustHaveIngredientsTableView;
+			productName = FaceMaskMustHaveIngredientsTableView;
+			productReference = 99ABE1812417351100724B9F /* FaceMaskMustHaveIngredientsTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99ABE1962417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99ABE1AE2417351400724B9F /* Build configuration list for PBXNativeTarget "FaceMaskMustHaveIngredientsTableViewTests" */;
+			buildPhases = (
+				99ABE1932417351400724B9F /* Sources */,
+				99ABE1942417351400724B9F /* Frameworks */,
+				99ABE1952417351400724B9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99ABE1992417351400724B9F /* PBXTargetDependency */,
+			);
+			name = FaceMaskMustHaveIngredientsTableViewTests;
+			productName = FaceMaskMustHaveIngredientsTableViewTests;
+			productReference = 99ABE1972417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99ABE1A12417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99ABE1B12417351400724B9F /* Build configuration list for PBXNativeTarget "FaceMaskMustHaveIngredientsTableViewUITests" */;
+			buildPhases = (
+				99ABE19E2417351400724B9F /* Sources */,
+				99ABE19F2417351400724B9F /* Frameworks */,
+				99ABE1A02417351400724B9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99ABE1A42417351400724B9F /* PBXTargetDependency */,
+			);
+			name = FaceMaskMustHaveIngredientsTableViewUITests;
+			productName = FaceMaskMustHaveIngredientsTableViewUITests;
+			productReference = 99ABE1A22417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99ABE1792417351100724B9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Wisa Terhune";
+				TargetAttributes = {
+					99ABE1802417351100724B9F = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					99ABE1962417351400724B9F = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 99ABE1802417351100724B9F;
+					};
+					99ABE1A12417351400724B9F = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 99ABE1802417351100724B9F;
+					};
+				};
+			};
+			buildConfigurationList = 99ABE17C2417351100724B9F /* Build configuration list for PBXProject "FaceMaskMustHaveIngredientsTableView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99ABE1782417351100724B9F;
+			productRefGroup = 99ABE1822417351100724B9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99ABE1802417351100724B9F /* FaceMaskMustHaveIngredientsTableView */,
+				99ABE1962417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests */,
+				99ABE1A12417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99ABE17F2417351100724B9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9908745D2418A85900D6E79B /* Ice.jpg in Resources */,
+				990874602418A85900D6E79B /* Rose Water.jpg in Resources */,
+				9908745F2418A85900D6E79B /* Orange.jpg in Resources */,
+				99ABE1912417351400724B9F /* LaunchScreen.storyboard in Resources */,
+				99ABE18E2417351400724B9F /* Assets.xcassets in Resources */,
+				9908745E2418A85900D6E79B /* Lemon.jpg in Resources */,
+				990874652418A85900D6E79B /* Egg White.jpg in Resources */,
+				990874662418A85900D6E79B /* Honey.jpg in Resources */,
+				99ABE18C2417351100724B9F /* Main.storyboard in Resources */,
+				990874642418A85900D6E79B /* Aloe Vera.jpg in Resources */,
+				990874612418A85900D6E79B /* Tumeric.jpg in Resources */,
+				990874632418A85900D6E79B /* Green Tea Powder.jpg in Resources */,
+				990874672418A85900D6E79B /* Coconut Oil.jpg in Resources */,
+				9908745C2418A85900D6E79B /* Tomato Juice.jpg in Resources */,
+				990874622418A85900D6E79B /* Avocado.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ABE1952417351400724B9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ABE1A02417351400724B9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99ABE17D2417351100724B9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ABE1892417351100724B9F /* ViewController.swift in Sources */,
+				99ABE1852417351100724B9F /* AppDelegate.swift in Sources */,
+				99ABE1872417351100724B9F /* SceneDelegate.swift in Sources */,
+				99ABE1B524173B3F00724B9F /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ABE1932417351400724B9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ABE19C2417351400724B9F /* FaceMaskMustHaveIngredientsTableViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ABE19E2417351400724B9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99ABE1A72417351400724B9F /* FaceMaskMustHaveIngredientsTableViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99ABE1992417351400724B9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99ABE1802417351100724B9F /* FaceMaskMustHaveIngredientsTableView */;
+			targetProxy = 99ABE1982417351400724B9F /* PBXContainerItemProxy */;
+		};
+		99ABE1A42417351400724B9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99ABE1802417351100724B9F /* FaceMaskMustHaveIngredientsTableView */;
+			targetProxy = 99ABE1A32417351400724B9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99ABE18A2417351100724B9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99ABE18B2417351100724B9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99ABE18F2417351400724B9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99ABE1902417351400724B9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99ABE1A92417351400724B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99ABE1AA2417351400724B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99ABE1AC2417351400724B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceMaskMustHaveIngredientsTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wterhune.FaceMaskMustHaveIngredientsTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99ABE1AD2417351400724B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceMaskMustHaveIngredientsTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wterhune.FaceMaskMustHaveIngredientsTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99ABE1AF2417351400724B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceMaskMustHaveIngredientsTableViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wterhune.FaceMaskMustHaveIngredientsTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceMaskMustHaveIngredientsTableView.app/FaceMaskMustHaveIngredientsTableView";
+			};
+			name = Debug;
+		};
+		99ABE1B02417351400724B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceMaskMustHaveIngredientsTableViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wterhune.FaceMaskMustHaveIngredientsTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceMaskMustHaveIngredientsTableView.app/FaceMaskMustHaveIngredientsTableView";
+			};
+			name = Release;
+		};
+		99ABE1B22417351400724B9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceMaskMustHaveIngredientsTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wterhune.FaceMaskMustHaveIngredientsTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceMaskMustHaveIngredientsTableView;
+			};
+			name = Debug;
+		};
+		99ABE1B32417351400724B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FaceMaskMustHaveIngredientsTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wterhune.FaceMaskMustHaveIngredientsTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FaceMaskMustHaveIngredientsTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99ABE17C2417351100724B9F /* Build configuration list for PBXProject "FaceMaskMustHaveIngredientsTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99ABE1A92417351400724B9F /* Debug */,
+				99ABE1AA2417351400724B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99ABE1AB2417351400724B9F /* Build configuration list for PBXNativeTarget "FaceMaskMustHaveIngredientsTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99ABE1AC2417351400724B9F /* Debug */,
+				99ABE1AD2417351400724B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99ABE1AE2417351400724B9F /* Build configuration list for PBXNativeTarget "FaceMaskMustHaveIngredientsTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99ABE1AF2417351400724B9F /* Debug */,
+				99ABE1B02417351400724B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99ABE1B12417351400724B9F /* Build configuration list for PBXNativeTarget "FaceMaskMustHaveIngredientsTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99ABE1B22417351400724B9F /* Debug */,
+				99ABE1B32417351400724B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99ABE1792417351100724B9F /* Project object */;
+}
